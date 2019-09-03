@@ -35,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
         progressDoalog.show();
 
         /*Create handle for the RetrofitInstance interface*/
+
+/*
         GetDataService service = RetrofitClientInstance.getRetrofitInstance().create(GetDataService.class);
         Call<List<RetroPhoto>> call = service.getAllPhotos();
         call.enqueue(new Callback<List<RetroPhoto>>() {
@@ -50,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(MainActivity.this, "Something went wrong...Please try later!", Toast.LENGTH_SHORT).show();
             }
         });
+*/
     }
 
     /*Method to generate List of data using RecyclerView with custom adapter*/
